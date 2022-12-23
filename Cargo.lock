@@ -3,6 +3,23 @@
 version = 3
 
 [[package]]
+name = "Rust-CRUD"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "axum",
+ "hyper",
+ "mime",
+ "serde",
+ "serde_json",
+ "thiserror",
+ "tokio",
+ "tower",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "anyhow"
 version = "1.0.68"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -323,23 +340,6 @@ dependencies = [
  "log",
  "wasi",
  "windows-sys",
-]
-
-[[package]]
-name = "my-todo"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "axum",
- "hyper",
- "mime",
- "serde",
- "serde_json",
- "thiserror",
- "tokio",
- "tower",
- "tracing",
- "tracing-subscriber",
 ]
 
 [[package]]
